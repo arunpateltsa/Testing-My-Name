@@ -1,3 +1,6 @@
+spring:
+  zipkin:
+    base-url: http://127.0.0.1:8004/ 
 
 eureka:
   client:
@@ -6,5 +9,5 @@ eureka:
     service-url:
       defaultZone: http://localhost:9090/eureka/
   instance:
-    hostname: localhost    
+    hostname: localhost 
  
